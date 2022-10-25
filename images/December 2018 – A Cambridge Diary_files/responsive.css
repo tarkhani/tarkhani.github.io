@@ -1,0 +1,142 @@
+/*----------------------------------*/
+/*-----------960px WIDE------------*/
+/*--------------------------------*/
+@media screen and (max-width:960px) {
+	
+	#header {
+		padding: 25px;
+	}
+	
+	a#logo {
+	    float: none;
+	    max-width: 100%;
+	}
+	
+	#navigation {
+	    clear: both;
+	    float: none;
+	    width: auto;
+	}
+	
+	#dropmenu {
+		z-index: 1;
+		display: block;
+	}
+	
+	#dropmenu li {
+		margin-right: 30px;
+		margin-left: 0px;
+	}
+	
+	#content {
+		padding: 25px 25px 55px;
+	}
+	
+	#fullWidth {
+	    padding-left: 0;
+	}
+	
+	#fullWidth #leftContent {
+	    margin-left: 0;
+	}
+
+	#leftContent {
+		float: none;
+		margin-right: 0;
+    	width: auto;
+	}
+	
+	#rightContent {
+	    float: none;
+	    width: auto;
+	}
+	
+	.listing .post, 
+	.listing .page {
+		max-width: 100%;
+		left: 0 !important;
+		position: relative !important;
+		top: 0 !important;
+	}
+	
+	.listing .firstColumn {
+		min-height: 0;
+	}
+	
+	.column {
+	    float: none;
+	    margin: 0 0 10px;
+	    max-width: 100%;
+	    width: auto;
+	}
+	
+	.noImgColumn {
+	    float: none;
+	    margin-left: 0;
+	    width: auto;
+	}
+	
+	.listing h2.posttitle {
+	    margin-bottom: 10px;
+	}
+	
+	
+	body.single .post {
+	    float: none;
+	}
+	.post {
+	    width: auto;
+	}
+	#postImgs {
+	    height: auto !important;
+	    margin-left: 0;
+	    margin-top: 25px;
+	}
+	#postImgs .postImg {
+	    display: inline-block;
+	    float: none;
+	    left: 0 !important;
+	    position: relative !important;
+	    top: 0 !important;
+	    margin: 0 19px 19px 0;
+	}
+	
+	#footer #copyright {
+		margin-left: 25px;
+	}
+
+	#backTop {
+		width: 25px;
+	}
+	
+	.socialicon {
+		margin: 6px 0 0 6px;
+	}
+}
+
+/*----------------------------------*/
+/*-----------500px WIDE------------*/
+/*--------------------------------*/
+@media screen and (max-width:500px) {
+
+	#navigation {
+		min-height: 30px;
+	}
+	#navigation::before {
+	    background: rgba(0,0,0,.035);
+	    content: "☰ MENU";
+	    display: block;
+	    font-size: 12px;
+	    margin-bottom: 10px;
+	    margin-left: -10px;
+	    padding: 5px 10px;
+	    cursor: pointer;
+	}
+	#dropmenu {
+		display:none;
+	}
+	#dropmenu.open {
+		display: block;
+	}
+
+}
